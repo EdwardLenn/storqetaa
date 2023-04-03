@@ -1,0 +1,41 @@
+.footer {
+    padding: 30px 20px 80px;
+    margin-top: 30px;
+    border-top: 1px solid #e8e8e8;
+    background-color: #fafafa;
+    text-align: center;
+    @media screen and (min-width: 840px) {
+        padding-bottom: 40px;
+    }
+
+    &__social {
+        margin-bottom: 20px;
+        ul {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            li {
+                padding: 0 6px;
+            }
+        }
+        a {
+            display: flex;
+            background-color: var(--white);
+            padding: 7px;
+            border: 1px solid var(--gray--3);
+            border-radius: 3px;
+            &:hover {
+                background-color: transparent;
+                svg {
+                    opacity: 0.8;
+                }
+            }
+        }
+        svg {
+            width: 18px;
+            height: 18px;
+            opacity: .4;
+            transition: .25s ease;
+        }
+    }
+}

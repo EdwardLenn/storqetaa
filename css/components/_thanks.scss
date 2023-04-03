@@ -1,0 +1,21 @@
+.thanks {
+    background-color: #f3f3f3;
+    padding: 40px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    &__body {
+        padding: 30px 20px;
+    }
+    h1 {
+        line-height: 48px;
+    }
+    .icon {
+        font-size: 46px;
+        color: var(--green);
+    }
+    p {
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,26 @@
+:root {
+
+    --black         : #000000;
+    --black--rgb    : 0, 0, 0;
+    
+    --white         : #ffffff;
+
+    --green         : #05808f;
+
+    --gray          : #f0f0f0;
+    --gray--1       : #aeaeae;
+    --gray--2       : #e8e8e8;
+    --gray--3       : #dadada;
+    --gray--4       : #fbfbfb;
+    
+    --yellow        : #ffc107;
+    
+
+    
+    --body-background-color: var(--white);
+    --body-color: var(--black);
+
+    --selection-background-color: var(--black);
+    --selection-color: var(--white);
+
+}
